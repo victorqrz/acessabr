@@ -1,0 +1,56 @@
+.curator {
+  &__container {
+    width: 100%;
+    background-color: var(--green);
+    filter: saturate(50%);
+    border-radius: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 3rem;
+  }
+
+  &__photo {
+    img {
+      border-radius: 50%;
+      border: 1px solid var(--lightGray);
+      height: 11.5rem;
+      width: 11.5rem;
+      margin: 2rem;
+    }
+  }
+
+  &__details {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 4rem 0;
+
+    div {
+      display: flex;
+      align-items: flex-end;
+      margin-bottom: 1rem;
+
+      h3 {
+        font-size: 2rem;
+        line-height: 2rem;
+        margin: 0;
+      }
+
+      h6 {
+        color: var(--darkGray);
+        font-size: 1.2rem;
+        line-height: 1.3rem;
+        margin: 0 1rem;
+      }
+    }
+
+    p {
+      font-size: 1.5rem;
+      width: 100%;
+    }
+  }
+}
