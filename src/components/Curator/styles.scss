@@ -1,9 +1,10 @@
 .curator {
   &__container {
     width: 100%;
-    background-color: var(--green);
+    background-color: rgba(0, 182, 193, 0.5);
     filter: saturate(50%);
     border-radius: 1rem;
+    margin-bottom: 4rem;
 
     display: flex;
     align-items: center;
@@ -16,8 +17,8 @@
     img {
       border-radius: 50%;
       border: 1px solid var(--lightGray);
-      height: 11.5rem;
-      width: 11.5rem;
+      height: 8.5rem;
+      width: 8.5rem;
       margin: 2rem;
     }
   }

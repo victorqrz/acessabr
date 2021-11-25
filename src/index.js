@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Curator from "./components/Curator";
 
 import "./styles/global.scss";
+import Footer from "./components/Footer";
 
 const CONFIG = {
   city: "Aracaju",
@@ -19,6 +20,7 @@ ReactDOM.render(
       {/* ESPAÇO PARA INSERIR A LISTA DE LUGARES */}
       <Curator />
     </div>
+    <Footer />
   </div>,
   document.getElementById("root")
 );

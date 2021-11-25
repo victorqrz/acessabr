@@ -14,10 +14,10 @@ const Curator = () => {
           <h6>Curadoria</h6>
         </div>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta
-          voluptas, distinctio itaque quidem ducimus culpa accusamus cumque iste
-          non voluptates obcaecati exercitationem fugit. Assumenda ad pariatur
-          inventore deleniti eligendi nostrum!
+          Graduando em Ciência da Computação pela UFS. Desenvolvedor web jr,
+          entusiasta do ecossistema Javascript vem aprimorando seus
+          conhecimentos na área e utilizando desses conhecimentos para trazer
+          mais qualidade de vida para todos.
         </p>
       </div>
     </div>
