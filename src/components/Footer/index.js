@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.scss";
+import "./footer.scss";
 import iconTop from "../../images/arrow-top.svg";
 
 const Footer = () => {

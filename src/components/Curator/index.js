@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.scss";
+import "./card.scss";
 import curatorPhoto from "../../images/curator-photo.png";
 
 const Curator = () => {
