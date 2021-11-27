@@ -40,6 +40,7 @@ const Home = (props) => {
               local={item}
               selected={selectedPill === item}
               onClick={() => setSelectedPill(item)}
+              key={item}
             />
           ))}
         </div>

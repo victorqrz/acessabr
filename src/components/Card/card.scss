@@ -37,6 +37,9 @@
 
     &__item {
       background-color: var(--blue);
+      display: flex;
+      align-items: center;
+      justify-content: center;
       border-radius: 5px;
       width: 30px;
       height: 30px;

@@ -1,0 +1,45 @@
+@mixin displayFlexRow($width: 100%) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: $width;
+}
+
+.places {
+  width: 100%;
+  &__header {
+    @include displayFlexRow;
+    margin: 0 0 4rem;
+  }
+
+  &__title {
+    font-size: 3.2rem;
+    color: var(--green);
+
+    span {
+      color: var(--black);
+    }
+  }
+
+  &__select {
+    @include displayFlexRow($width: 24rem);
+    border-bottom: 1px solid var(--black);
+    align-items: center;
+    padding: 4px 15px;
+
+    h5 {
+      color: #706d6d;
+      font-weight: 500;
+      font-size: 1.8rem;
+    }
+
+    select {
+      border: 0;
+      background-color: #eee;
+      color: #000000;
+      font-weight: 500;
+      font-size: 1.8rem;
+      padding: 0 0.5rem;
+    }
+  }
+}
